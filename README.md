@@ -38,5 +38,22 @@ These are the endpoints found in the documentation. We'll then try to find hidde
 /currency_conversions/search?from=$CURRENCY_ID&to=$CURRENCY_ID
 /countries/$COUNTRY_ID/zip_codes/$ZIP_CODE
 /country/$COUNTRY_ID/zip_codes/search_between?zip_code_from=$ZIP_CODE_FROM&zip_code_to=$ZIP_CODE_TO
+/sites/$SITE_ID/search?category=$CATEGORY_ID
+/sites/$SITE_ID/search?q=Motorola%20G6
+/sites/$SITE_ID/search?nickname=$NICKNAME
+/sites/$SITE_ID/search?seller_id=$SELLER_ID
+/sites/$SITE_ID/search?seller_id=$SELLER_ID&category=$CATEGORY_ID
+/users/$USER_ID/items/search
+/items?ids=$ITEM_ID1,$ITEM_ID2
+/users?ids=$USER_ID1,$USER_ID2
+/items?ids=$ITEM_ID1,$ITEM_ID2&attributes=$ATTRIBUTE1,$ATTRIBUTE2,$ATTRIBUTE3
+/users/$USER_ID/items/search?search_type=scan
+/questions/search?item=$ITEM_ID
+/questions
+/answers
+/questions/$QUESTION_ID
+/block-api/search/users/$USER_ID
+/users/$SELLER_ID/questions_blacklist/$BUYER_ID
+/my/received_questions/search
 ```
 
