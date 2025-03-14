@@ -55,5 +55,34 @@ These are the endpoints found in the documentation. We'll then try to find hidde
 /block-api/search/users/$USER_ID
 /users/$SELLER_ID/questions_blacklist/$BUYER_ID
 /my/received_questions/search
+/orders/search?seller=$SELLER_ID
+/orders/search?seller=$SELLER_ID&q=$ORDER_ID
+/orders/search?buyer=$BUYER_ID
+/sites/$SITE_ID/payment_methods
+/sites/$SITE_ID/payment_methods/$id
+/orders/$ORDER_ID/feedback
+/feedback/$FEEDBACK_ID
+/feedback/$FEEDBACK_ID/reply
+/block-api/search/users/$USER_ID
+/users/$SELLER_ID/order_blacklist
+/orders/$ORDER_ID/product
+/users/$USER_ID/items_visits?date_from=$DATE_FROM&date_to=$DATE_TO
+/users/$USER_ID/items_visits/time_window?last=$LAST&UNIT=$UNIT&ENDING=$ENDING
+/users/$USER_ID/contacts/questions?date_from=$DATE_FROM&date_to=$DATE_TO
+/users/$USER_ID/contacts/questions/time_window?last=$LAST&UNIT=$UNIT
+/users/$USER_ID/contacts/phone_views?date_from=$DATE_FROM&DATE_TO=$DATE_TO
+/users/$USER_ID/contacts/phone_views/time_window?last=$LAST&UNIT=$UNIT
+/items/visits?ids=$ID1, ID2&date_from=$DATE_FROM&date_to=$DATE_TO
+/items/$ITEM_ID/visits/time_window?last=$LAST&UNIT=$UNIT&ENDING=$ENDING
+/items/visits/time_window?ids=$ID1, ID2last=$LAST&UNIT=UNIT&ENDING=$ENDING
+/items/contacts/phone_views/time_window?ids=$ID1,ID2&last=$LAST&UNIT=$UNIT&ENDING=ENDING_DATE
+/shipments/$SHIPMENT_ID
+/items/$ITEM_ID/shipping_options
+/sites/$SITE_ID/shipping_methods
+/users/$CUST_ID/shipping_preferences
+/orders/$ORDER_ID/shipments
+/shipment_labels
+/shipment_labels?shipment_ids=$SHIPMENT_ID&response_type=zpl2
+/shipment_labels?shipment_ids=$SHIPMENT_ID&savePdf=Y
 ```
 
