@@ -5,4 +5,4 @@ https://articulo.mercadolibre.com.ar
 ```
 - We tried to inject an operating system command into the "user_id" parameter and got error 204
 
-<img src="../command_injection_in_headers.png" alt="request image">
+<img src="../RCE_attemp_article.png" alt="request image">
