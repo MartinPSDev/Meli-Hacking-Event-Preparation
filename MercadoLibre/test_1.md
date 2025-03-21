@@ -110,3 +110,15 @@ Content-Length: 1115
     "name": "Panamá"
 }]
 ```
+
+- We tried to add parameters with operating system commands using the curl command but without success, since it ignores it and returns the correct response.
+
+```
+curl -s -H "User-Agent: Mozilla/5.0; \`whoami\`" "https://api.mercadolibre.com/sites"
+```
+```
+curl -s -H  "Cookie: test=`whoami`"  "https://api.mercadolibre.com/sites"
+```
+```
+curl -s -H  "Referer: http://test.com/`whoami`" "https://api.mercadolibre.com/sites"
+```
