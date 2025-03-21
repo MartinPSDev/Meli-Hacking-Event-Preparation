@@ -86,3 +86,8 @@ These are the endpoints found in the documentation. We'll then try to find hidde
 /shipment_labels?shipment_ids=$SHIPMENT_ID&savePdf=Y
 ```
 
+- Endpoints not listed in the documentation
+```
+/adn/api?placement=adn&page=vpp&site_id=MLA&user_id=$USER_ID&resolution_name=2x&platform=desktop&slot_id=billboard_vip_core&ad_unit=ADN_VIP-MKTPL_DESKTOP_BOTTOM&domain=BOTTOM&category_id=MLA1287&unique_id=$UNIQUE_ID
+```
+
